@@ -1,5 +1,7 @@
 import numpy as np
 
+# cols are # of neurons ,rows are the batches
+
 inputs = [
     [1,2,3,2.5],
     # [2,5,-1,2],
@@ -15,7 +17,7 @@ weights = [
 ]
 
 """
-
+4 x 3
 *   *
 *   *
 *   *

@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 # https://cs231n.github.io/neural-networks-case-study/
 def spiral_data(points, classes):
@@ -13,13 +14,12 @@ def spiral_data(points, classes):
     return X, y
 
 
-import matplotlib.pyplot as plt
 
-print('here')
-X, y = spiral_data(100, 3)
+# print('here')
+# X, y = spiral_data(100, 3)
 
-plt.scatter(X[:,0], X[:,1])
-plt.show()
+# plt.scatter(X[:,0], X[:,1])
+# plt.show()
 
-plt.scatter(X[:0], X[:1], c=y, cmap="brg")
-plt.show()
+# plt.scatter(X[:0], X[:1], c=y, cmap="brg")
+# plt.show()
